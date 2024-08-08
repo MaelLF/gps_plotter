@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mlf/ros2_ws/install/xsens_mti_ros2_driver/include/**",
+        "/home/mlf/ros2_ws/install/naoqi_libqicore/include/**",
+        "/home/mlf/ros2_ws/install/naoqi_libqi/include/**",
+        "/home/mlf/ros2_ws/install/naoqi_bridge_msgs/include/**",
+        "/opt/ros/iron/include/**",
+        "/home/mlf/ros2_ws/src/converter_cpp/include/**",
+        "/home/mlf/ros2_ws/src/naoqi_driver2/include/**",
+        "/home/mlf/ros2_ws/src/xsens_mti_ros2_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

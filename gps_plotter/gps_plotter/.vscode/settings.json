@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mlf/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.10/site-packages",
+        "/home/mlf/ros2_ws/install/pepper_controller/lib/python3.10/site-packages",
+        "/home/mlf/ros2_ws/install/naoqi_bridge_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mlf/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.10/site-packages",
+        "/home/mlf/ros2_ws/install/pepper_controller/lib/python3.10/site-packages",
+        "/home/mlf/ros2_ws/install/naoqi_bridge_msgs/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}
