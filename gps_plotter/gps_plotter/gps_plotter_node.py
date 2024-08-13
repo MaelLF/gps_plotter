@@ -23,12 +23,9 @@ class GPSPlotter(Node):
         self.x = 0
 
     def listener_callback(self, msg):
-        if (self.x < 100):
-            self.latitudes.append(msg.latitude)
-            self.longitudes.append(msg.longitude)
-            self.update_plot()
-        else :
-            print('stopped')
+        self.latitudes.append(msg.latitude)
+        self.longitudes.append(msg.longitude)
+        self.update_plot()
 
     def update_plot(self):
         self.scatter.set_xdata(self.longitudes)
